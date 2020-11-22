@@ -128,7 +128,6 @@ body {
   background-image: url(../images/marketing.png);
   background-repeat: no-repeat;
   background-size: cover;
-  float: right;
 }
 
 .portfolio-section .blackmore-apartmens-box {
@@ -141,7 +140,6 @@ body {
   background-image: url(../images/zetta-hotels.png);
   background-repeat: no-repeat;
   background-size: cover;
-  float: right;
 }
 
 footer {
@@ -185,11 +183,9 @@ footer ul li:not(:last-child) {
 
 @media only screen and (max-width: 767px) {
   .marketing-templates-box {
-    float: none !important;
     margin: 50px 0 0 0  !important;
   }
   .zetta-hotels-box {
-    float: none !important;
     margin: 50px 0 0 0 !important;
   }
 }

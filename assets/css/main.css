@@ -87,7 +87,7 @@ body {
 .portfolio-section .box {
   display: inline-block;
   text-align: center;
-  width: 90%;
+  width: 100%;
   height: 400px;
   z-index: -1;
   -webkit-transition: .4s;

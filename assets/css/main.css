@@ -61,13 +61,14 @@ body {
   background-color: #AB0202;
   -webkit-transition: .4s ease;
   transition: .4s ease;
-  -webkit-transition-property: letter-spacing;
-  transition-property: letter-spacing;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
 }
 
 .home-section .button:hover {
   -webkit-transition: .4s ease;
   transition: .4s ease;
+  background-color: #7b0202;
 }
 
 .home-section .button i {
@@ -79,7 +80,6 @@ body {
 }
 
 .portfolio-section h3 {
-  text-align: center;
   letter-spacing: 6px;
   padding: 0 0 50px 0;
 }
@@ -146,10 +146,6 @@ footer {
   padding: 50px 0;
 }
 
-footer h3 {
-  letter-spacing: 6px;
-}
-
 footer ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -161,7 +157,6 @@ footer ul {
 
 footer ul li {
   list-style-type: none;
-  padding: 0 30px 0 0;
 }
 
 footer ul li i {
@@ -187,30 +182,6 @@ footer ul li:not(:last-child) {
   }
   .zetta-hotels-box {
     margin: 50px 0 0 0 !important;
-  }
-}
-
-@media only screen and (max-width: 376px) {
-  footer {
-    text-align: center !important;
-  }
-  footer .container {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: normal !important;
-        -ms-flex-direction: column !important;
-            flex-direction: column !important;
-    -webkit-box-align: center !important;
-        -ms-flex-align: center !important;
-            align-items: center !important;
-  }
-  footer .container h3 {
-    margin: 0 0 25px 0 !important;
-  }
-  footer .container ul {
-    margin: 0 0 0 20px !important;
   }
 }
 /*# sourceMappingURL=main.css.map */

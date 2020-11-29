@@ -1,0 +1,36 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#ddd;
+    color: black;
+}
+
+#fontFamilyChoose{
+    background-color: transparent;
+    max-width: 180px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+#fontColor{
+    border: none;
+    outline: none;
+    padding: 0 0 0 5px; 
+    background-color: transparent;
+    border-bottom: 2px solid black;
+}
+
+.rangeInput{
+    appearance: none;
+    background-color: black;
+    height: 2px;
+    outline: none;
+}
+
+.fontSizeCount{
+    padding: 0 0 0 5px;
+}

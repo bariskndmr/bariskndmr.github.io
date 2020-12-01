@@ -1,0 +1,32 @@
+$turbo: #f9ca24;
+$carminePink: #eb4d4b;
+
+
+.container{
+    padding: 50px 0;
+    
+    .box-container{
+        margin: 100px 0 0 0;
+        
+
+        .box{
+            width: 600px;
+            height: 200px;
+            margin: 100px 0;
+            opacity: 0;
+            transition: opacity 1s ease;
+        
+            &:nth-child(even){
+                background-color: $turbo;
+            }
+        
+            &:nth-child(odd){
+                background-color: $carminePink;
+            }
+        }
+    }
+}
+
+.show{
+    opacity: 1 !important;
+}

@@ -1,0 +1,29 @@
+.container {
+  padding: 50px 0;
+}
+
+.container .box-container {
+  margin: 100px 0 0 0;
+}
+
+.container .box-container .box {
+  width: 600px;
+  height: 200px;
+  margin: 100px 0;
+  opacity: 0;
+  -webkit-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+}
+
+.container .box-container .box:nth-child(even) {
+  background-color: #f9ca24;
+}
+
+.container .box-container .box:nth-child(odd) {
+  background-color: #eb4d4b;
+}
+
+.show {
+  opacity: 1 !important;
+}
+/*# sourceMappingURL=main.css.map */

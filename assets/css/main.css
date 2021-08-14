@@ -49,6 +49,7 @@ body {
 }
 
 .home-section p .metropol-button:hover {
+  color: #7b0202;
   border: none;
 }
 
@@ -177,6 +178,9 @@ footer ul li:not(:last-child) {
 }
 
 @media only screen and (max-width: 767px) {
+  .home-section {
+    padding: 50px 0 50px 0;
+  }
   .marketing-templates-box {
     margin: 50px 0 0 0  !important;
   }

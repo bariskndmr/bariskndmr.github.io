@@ -49,6 +49,7 @@ body{
             padding: 0 0 3px 0;
 
             &:hover{
+                color: #7b0202;
                 border: none;
             }
         }
@@ -168,6 +169,10 @@ footer{
 }
 
 @media only screen and (max-width:767px){
+
+    .home-section{
+        padding: 50px 0 50px 0;
+    }
 
     .marketing-templates-box{
         margin: 50px 0 0 0  !important;

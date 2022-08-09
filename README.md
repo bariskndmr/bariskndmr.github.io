@@ -1,1 +1,0 @@
-# bariskndmr.github.io
